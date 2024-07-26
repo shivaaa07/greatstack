@@ -1,0 +1,52 @@
+#testimonial{
+    margin-block: 30px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+/* text-align: center; */
+font-size: 18px;
+background: #fff;
+
+/* Center slide text vertically */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.swiper-slide img {
+display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.testimonialWrapper{
+    padding: 20px 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-block: 20px;
+}
+
+.testimonialWrapper .userInfo .userImage img{
+    width: 65px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 4px solid #212EA0;
+}
+
+.userDetails h3{
+    color: #212EA0;
+    font-size: calc(14px + (18 - 14) * (100vw - 320px) / (1920 - 320));
+    font-weight: 700;
+}
+
+.textPosition{
+    text-align: center;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -5px !important;
+}

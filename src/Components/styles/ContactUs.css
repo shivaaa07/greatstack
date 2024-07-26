@@ -1,0 +1,52 @@
+.contactWrapper h4 img{
+    width: 35px;
+    margin-left: 10px;
+}
+
+.textPosition{
+    text-align: center;
+}
+
+label{
+    width: 100%;
+    color: #676767;
+}
+
+input, textarea {
+    display: block;
+    border: none;
+    outline: none;
+    background-color: #ebecfe;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.width{
+    width: 20px;
+}
+
+.blue{
+    background-color: #212ea0;
+    color: #fff;
+}
+
+.contactInfo p i{
+    color: #212ea0;
+    font-size: 20px;
+}
+
+.contactInfo p a{
+    color: #000;
+}
+
+@media (max-width: 767px) {
+    .formWrapper{
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        padding: 20px;
+    }
+    .w-sx-100{
+        width: 100% !important;
+    }
+}

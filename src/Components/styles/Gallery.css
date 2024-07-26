@@ -1,0 +1,23 @@
+.imgWrapper img{
+    border-radius: 10px;
+}
+
+.textPosition{
+    text-align: center;
+}
+
+.width{
+    width: 20px;
+}
+
+.blue{
+    background-color: #212ea0;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .imgWrapper{
+        margin-block: 10px;
+    }
+}

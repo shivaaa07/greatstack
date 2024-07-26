@@ -1,0 +1,17 @@
+.ourProgram{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-inline: 20px;
+}
+
+.textPosition{
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .ourProgram{
+        display: block;
+     
+    }
+}
